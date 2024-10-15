@@ -79,14 +79,10 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 2. **Pathfinding Algorithms**:
    - R. Hart, N. Nilsson, and B. Raphael, "A Formal Basis for the Heuristic Determination of Minimum Cost Paths," *IEEE Transactions on Systems Science and Cybernetics*, vol. 4, no. 2, pp. 100-107, 1968.
-   - J. D. Smith, "Pathfinding and Path Planning," in *Artificial Intelligence*, 3rd ed. Cambridge, MA: MIT Press, 1990.
 
-3. **Robot Simulation**:
+3. **Mobile Robots**:
    - B. Siciliano et al., *Springer Handbook of Robotics*, 2nd ed. Springer, 2016.
    - R. Siegwart, I. R. Nourbakhsh, and D. Scaramuzza, *Introduction to Autonomous Mobile Robots*, 2nd ed. MIT Press, 2011.
 
 4. **MATLAB Graphics**:
    - MATLAB Documentation: [Graphics](https://www.mathworks.com/help/matlab/graphics.html)
-
-5. **Obstacle Avoidance in Robotics**:
-   - R. A. Brooks, "A Robust Layered Control System for a Mobile Robot," *IEEE Journal of Robotics and Automation*, vol. 2, no. 1, pp. 14-23, 1986.
