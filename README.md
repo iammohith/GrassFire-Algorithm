@@ -68,6 +68,7 @@ Calculated Distances from Grassfire Algorithm
 Shortest Path
 ![Shortest_Path](Shortest_Path.png)
 Shortest Path Simulation
+![Shortest_Path_Simualtion](Shortest_Path_Simulation.gif)
 
 ## Requirements
 - MATLAB (preferably R2018b or later)
