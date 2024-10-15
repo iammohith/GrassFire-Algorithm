@@ -75,7 +75,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 1. **Grassfire Algorithm**:
    - H. Edelsbrunner, "Algorithms in Combinatorial Geometry," Springer-Verlag, 1987.
-   - [Wikipedia: Grassfire algorithm](https://en.wikipedia.org/wiki/Grassfire_algorithm)
+   - [Wikipedia: Grassfire algorithm](https://en.wikipedia.org/wiki/Grassfire_transform)
 
 2. **Pathfinding Algorithms**:
    - R. Hart, N. Nilsson, and B. Raphael, "A Formal Basis for the Heuristic Determination of Minimum Cost Paths," *IEEE Transactions on Systems Science and Cybernetics*, vol. 4, no. 2, pp. 100-107, 1968.
