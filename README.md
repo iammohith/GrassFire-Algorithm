@@ -52,6 +52,7 @@ start_simulation(m, n, startCell, goalCell, obstacles)
 - `obstacles`: Array of linear indices representing obstacle cells.
 
 ### Example
+![Problem Statement](.png)
 ```matlab
 m = 5; % Number of rows
 n = 5; % Number of columns
