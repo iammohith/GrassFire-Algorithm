@@ -63,8 +63,11 @@ obstacles = [7, 8, 12, 13]; % Obstacle cells
 start_simulation(m, n, startCell, goalCell, obstacles);
 ```
 ### Results
+Calculated Distances from Grassfire Algorithm
 ![Distance_Matrix_from_Grassfire_Algorithm](Distances_from_Grassfire_Algorithm.png)
+Shortest Path
 ![Shortest_Path](Shortest_Path.png)
+Shortest Path Simulation
 
 ## Requirements
 - MATLAB (preferably R2018b or later)
