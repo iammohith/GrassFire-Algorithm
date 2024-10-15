@@ -57,8 +57,8 @@ start_simulation(m, n, startCell, goalCell, obstacles)
 m = 5; % Number of rows
 n = 5; % Number of columns
 startCell = 1; % Start cell index
-goalCell = 25; % Goal cell index
-obstacles = [7, 8, 12, 13]; % Obstacle cells
+goalCell = 13; % Goal cell index
+obstacles = [7, 8, 12, 14]; % Obstacle cells
 
 start_simulation(m, n, startCell, goalCell, obstacles);
 ```
