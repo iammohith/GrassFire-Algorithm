@@ -52,7 +52,7 @@ start_simulation(m, n, startCell, goalCell, obstacles)
 - `obstacles`: Array of linear indices representing obstacle cells.
 
 ### Example
-![Problem Statement](.png)
+![Problem Statement](Display_Grid.png)
 ```matlab
 m = 5; % Number of rows
 n = 5; % Number of columns
@@ -62,6 +62,9 @@ obstacles = [7, 8, 12, 13]; % Obstacle cells
 
 start_simulation(m, n, startCell, goalCell, obstacles);
 ```
+### Results
+![Distance_Matrix_from_Grassfire_Algorithm](Distances_from_Grassfire_Algorithm.png)
+![Shortest_Path](Shortest_Path.png)
 
 ## Requirements
 - MATLAB (preferably R2018b or later)
