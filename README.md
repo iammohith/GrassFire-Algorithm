@@ -61,12 +61,20 @@ start_simulation(m, n, startCell, goalCell, obstacles);
 
 ## File Structure
 The project consists of the following MATLAB functions:
-- `start_simulation.m`: The main function that initiates the simulation.
-- `display_grid.m`: Displays the grid with the start, goal, and obstacle cells.
-- `grassfire_algorithm.m`: Implements the Grassfire algorithm to calculate distances.
-- `display_distances.m`: Displays the distances on the grid.
-- `shortest_path.m`: Visualizes the robot's path from the start to the goal cell.
-- `draw_robot.m`: Draws the robot's representation on the grid.
+
+- **`start_simulation.m`**: The main function that initiates the simulation, calling other functions to display the grid, run the Grassfire algorithm, and visualize the robot's path.
+
+- **`display_grid.m`**: Displays the grid with the start cell (in green), goal cell (in red), and obstacles (in black). It ensures proper visualization by dividing the grid into rows and columns.
+
+- **`grassfire_algorithm.m`**: Implements the Grassfire algorithm to calculate the distance of each cell from the goal while considering obstacles. Obstacles are marked as impassable, and distances propagate to the rest of the grid.
+
+- **`display_distances.m`**: Displays the calculated distances from the Grassfire algorithm on the grid.
+
+- **`shortest_path.m`**: Visualizes the shortest path from the start cell to the goal cell based on the Grassfire algorithm's output. It plots the path step-by-step, avoiding obstacles.
+
+- **`draw_robot.m`**: Draws the robot's representation on the grid. The robot features a blue rectangular body, black wheels, and an orange circular mount to distinguish it visually.
+
+- **`index_to_rowcol.m`**: Converts a linear cell index to its corresponding row and column indices in a grid with dimensions `m x n`. Unlike MATLAB's default `ind2sub`, which assumes column-major order, this function works for **row-major order** (left-to-right row-wise):
 
 ## Results
 
