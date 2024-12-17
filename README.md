@@ -74,7 +74,7 @@ The project consists of the following MATLAB functions:
 
 - **`draw_robot.m`**: Draws the robot's representation on the grid. The robot features a blue rectangular body, black wheels, and an orange circular mount to distinguish it visually.
 
-- **`index_to_rowcol.m`**: Converts a linear cell index to its corresponding row and column indices in a grid with dimensions `m x n`. Unlike MATLAB's default `ind2sub`, which assumes column-major order, this function works for **row-major order** (left-to-right row-wise):
+- **`index_to_rowcol.m`**: Converts a linear cell index to its corresponding row and column indices in a grid with dimensions `m x n`. Unlike MATLAB's default `ind2sub`, which assumes column-major order, this function works for **row-major order** (left-to-right row-wise).
 
 ## Results
 
